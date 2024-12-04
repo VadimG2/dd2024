@@ -1,0 +1,62 @@
+/home/vadja228/miniconda3/bin/quast GCF_000308975.1_ASM30897v2_genomic.fna.gz
+
+Version: 5.3.0
+
+System information:
+  OS: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.35 (linux_64)
+  Python version: 3.12.2
+  CPUs number: 4
+
+Started: 2024-12-04 15:23:37
+
+Logging to /mnt/d/exam/quast_results/results_2024_12_04_15_23_37/quast.log
+NOTICE: Maximum number of threads is set to 1 (use --threads option to set it manually)
+
+CWD: /mnt/d/exam
+Main parameters: 
+  MODE: default, threads: 1, min contig length: 500, min alignment length: 65, min alignment IDY: 95.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+Contigs:
+  Pre-processing...
+  GCF_000308975.1_ASM30897v2_genomic.fna.gz ==> GCF_000308975.1_ASM30897v2_genomic
+
+2024-12-04 15:23:43
+Running Basic statistics processor...
+  Contig files: 
+    GCF_000308975.1_ASM30897v2_genomic
+  Calculating N50 and L50...
+    GCF_000308975.1_ASM30897v2_genomic, N50 = 4754148, L50 = 1, auN = 4754148.0, Total length = 4754148, GC % = 50.75, # N's per 100 kbp =  94.68
+  Drawing Nx plot...
+    saved to /mnt/d/exam/quast_results/results_2024_12_04_15_23_37/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /mnt/d/exam/quast_results/results_2024_12_04_15_23_37/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /mnt/d/exam/quast_results/results_2024_12_04_15_23_37/basic_stats/GC_content_plot.pdf
+  Drawing GCF_000308975.1_ASM30897v2_genomic GC content plot...
+    saved to /mnt/d/exam/quast_results/results_2024_12_04_15_23_37/basic_stats/GCF_000308975.1_ASM30897v2_genomic_GC_content_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2024-12-04 15:23:49
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating PDF with all tables and plots...
+  2 of 2: Creating Icarus viewers...
+Done
+
+2024-12-04 15:23:51
+RESULTS:
+  Text versions of total report are saved to /mnt/d/exam/quast_results/results_2024_12_04_15_23_37/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /mnt/d/exam/quast_results/results_2024_12_04_15_23_37/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /mnt/d/exam/quast_results/results_2024_12_04_15_23_37/report.html
+  PDF version (tables and plots) is saved to /mnt/d/exam/quast_results/results_2024_12_04_15_23_37/report.pdf
+  Icarus (contig browser) is saved to /mnt/d/exam/quast_results/results_2024_12_04_15_23_37/icarus.html
+  Log is saved to /mnt/d/exam/quast_results/results_2024_12_04_15_23_37/quast.log
+
+Finished: 2024-12-04 15:23:53
+Elapsed time: 0:00:16.751542
+NOTICEs: 2; WARNINGs: 1; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
